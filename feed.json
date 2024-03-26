@@ -1,0 +1,306 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "皓然小站",
+    "home_page_url": "https://blog.horonlee.com/",
+    "feed_url": "https://blog.horonlee.com/feed.json",
+    "description": "分享生活和技术的点滴",
+    "icon": "https://bu.dusays.com/2023/02/02/63db3598928c2.jpg",
+    "author": {
+        "name": "皓然",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<h1>环境准备</h1>\n<h2>hostname配置（controller+compute）</h2>\n<ol>\n<li><code>hostnamectl set-hostname $hostname</code> 、<code>bash</code></li>\n<li>`vi /etc</li>\n</ol>\n",
+            "url": "https://blog.horonlee.com/posts/OpenStack-note",
+            "title": "OpenStack运维笔记",
+            "date_modified": "2023-07-02T13:03:41.000Z",
+            "date_published": "2024-03-26T01:53:46.606Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<blockquote>\n<p>本教程基于<a href=\"https://blog.horon.top/2023/04/20/ubuntu%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEnginx%E5%8F%8A%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95/\">这篇Nginx文章</a>，如果不解之处可前往查阅</p>\n</blockquote>\n",
+            "url": "https://blog.horonlee.com/posts/PHP-Nginx-website",
+            "title": "使用PHP+Nginx搭建网页",
+            "date_modified": "2023-04-21T13:35:43.000Z",
+            "date_published": "2024-03-26T01:53:46.606Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>Dcoker Compose封装SRS-docker</h1>\n<h2>1.Docker指令→制作Docker-compose</h2>\n<h3>什么是[docker-compose？](<a href=\"https://www.run\">https://www.run</a></h3>\n",
+            "url": "https://blog.horonlee.com/posts/SRS-liveStream",
+            "title": "通过SRS实现在线直播",
+            "date_modified": "2022-11-27T11:41:22.000Z",
+            "date_published": "2024-03-26T01:53:46.606Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>更新软件包索引</h1>\n<p>添加一个新的 HTTPS 软件源：</p>\n<pre><code class=\"language-bash\">sudo apt update\nsudo apt install apt-transport-https ca-certific</code></pre>\n",
+            "url": "https://blog.horonlee.com/posts/Ubuntu-Docker-Compose",
+            "title": "Ubuntu安装配置Docker&Compose",
+            "summary": "Ubuntu关于docker&compose的教程",
+            "date_modified": "2022-12-02T15:33:48.000Z",
+            "date_published": "2024-03-26T01:53:46.606Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>安装Nginx</h1>\n<p>直接apt安装即可<code>sudo apt install nginx</code></p>\n<h2>查看Nginx服务状态</h2>\n<pre><code class=\"language-bash\">sudo systemctl enable nginx    #</code></pre>\n",
+            "url": "https://blog.horonlee.com/posts/Ubuntu-Nginx-useage",
+            "title": "Ubuntu安装配置Nginx及基础用法",
+            "date_modified": "2023-04-20T22:05:15.000Z",
+            "date_published": "2024-03-26T01:53:46.606Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>Ubuntu搭建OpenStack-Zed</h1>\n<p>注意：本篇只作为个人笔记，记录搭建过程的一些坑和问题，仅供参考！<br>\n所有服务的密码都是123456。</p>\n<h1>网络配置</h1>\n<ol>\n<li>Nat网卡用于下载文件：192.</li>\n</ol>\n",
+            "url": "https://blog.horonlee.com/posts/Ubuntu-OpenStack-Yoga-Zed",
+            "title": "Ubuntu搭建OpenStack-Yoga(Zed)",
+            "date_modified": "2023-02-23T22:30:44.000Z",
+            "date_published": "2024-03-26T01:53:46.606Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>XiaoMiBook1.24二合一</h1>\n<blockquote>\n<p>最近入手了小米新出的Arm二合一笔记本平板（-2999￥），用了一段时间感觉应该写一下使用感受</p>\n</blockquote>\n<h2>外观&amp;手感</h2>\n<p>外观方面个人觉得无可挑剔，正面的黑边宽</p>\n",
+            "url": "https://blog.horonlee.com/posts/XiaoMi-Book-12-4",
+            "title": "XiaoMi Book 12.4二合一上手体验",
+            "date_modified": "2023-02-18T12:14:24.000Z",
+            "date_published": "2024-03-26T01:53:46.606Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<blockquote>\n<p>事情起因：寒假一人家在空虚寂寞无聊，于是乎想实现一下之前一直想做的NAS，故开始上网查询、Q群询问大佬，最终完成了一部分目标（汗）。</p>\n</blockquote>\n<p>首先确认自己是否拥有公网IP，电信是比较容易要到的，联通和</p>\n",
+            "url": "https://blog.horonlee.com/posts/bridge-router-ddns",
+            "title": "家庭宽带桥接并为路由器配置DDNS",
+            "date_modified": "2024-01-30T18:23:04.000Z",
+            "date_published": "2024-03-26T01:53:46.606Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<blockquote>\n<p>为了练习shell脚本编写能力，我以比赛文档中部署java商城的流程来编写一键脚本，目前写了一半</p>\n</blockquote>\n",
+            "url": "https://blog.horonlee.com/posts/shell-practice",
+            "title": "脚本练习1",
+            "date_modified": "2023-10-09T11:35:31.000Z",
+            "date_published": "2024-03-26T01:53:46.606Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>安装CICD所需资源</h1>\n<p><code>curl -O http://mirrors.douxuedu.com/competition/BlueOcean.tar.gz &amp;&amp; tar -zxf BlueOcean.tar.gz &amp;&amp; cp BlueOcean/tools/docker-compose-Linux-x86_64 /usr/bin/docker-compose &amp;&amp; docker-compose version &amp;&amp; tar -zxf BlueOcean/harbor-offline-installer.tar.gz -C /opt/ &amp;&amp; sh /opt/harbor/install.sh &amp;&amp; docker login -uadmin -pHarbor12345 172.16.2.90 &amp;&amp; docker load -i BlueOcean/images/maven_latest.tar &amp;&amp; docker tag maven 172.16.2.90/library/maven &amp;&amp; docker push 172.16.2.90/library/maven &amp;&amp; docker load -i BlueOcean/images/java_8-jre.tar &amp;&amp; docker load -i BlueOcean/images/jenkins_jenkins_latest.tar &amp;&amp; docker load -i BlueOcean/images/gitlab_gitlab-ce_latest.tar &amp;&amp; kubectl create ns devops</code></p>\n",
+            "url": "https://blog.horonlee.com/posts/CICDk8s",
+            "title": "在k8s中构建CICD",
+            "date_modified": "2024-02-27T15:07:00.000Z",
+            "date_published": "2024-03-26T01:53:46.602Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>OpenStack-Queen版本搭建</h1>\n<ul>\n<li>系统：CentOS7.5-1804</li>\n<li>硬件环境：\n<ul>\n<li>i7-12700H &amp; 16G-RAM</li>\n</ul>\n</li>\n<li>软件环境：\n<ul>\n<li>VT-d开启 &amp; VT-x未</li>\n</ul>\n</li>\n</ul>\n",
+            "url": "https://blog.horonlee.com/posts/CentOS-OpenStack-Queen手记",
+            "title": "CentOS搭建OpenStack-Queen手记",
+            "date_modified": "2022-12-06T20:41:18.000Z",
+            "date_published": "2024-03-26T01:53:46.602Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>CentOS下安装和配置Dcoker有一些麻烦，故本人请教学长后打算写下一些经验</h2>\n<h3>step 1：安装必要的一些系统工具</h3>\n<p><strong>先获得管理员Bash权限：</strong><code>su root</code></p>\n<pre><code class=\"language-bas\"></code></pre>\n",
+            "url": "https://blog.horonlee.com/posts/CentOS7-docker",
+            "title": "CentOS7安装配置docker",
+            "summary": "CentOS7安装配置docker以及更改配置文件",
+            "date_modified": "2022-11-27T14:46:08.000Z",
+            "date_published": "2024-03-26T01:53:46.602Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>使用docker-compose创建、配置nextcloud</h1>\n<p>参考博文（docker-compose来源）：<a href=\"https://blog.csdn.net/shangyexin/article/det\">https://blog.csdn.net/shangyexin/article/det</a></p>\n",
+            "url": "https://blog.horonlee.com/posts/Docker-NextCloud",
+            "title": "使用Docker部署NextCloud",
+            "date_modified": "2022-12-20T15:30:00.000Z",
+            "date_published": "2024-03-26T01:53:46.602Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>Ubuntu环境下制作自己的Docker镜像——MC服务器</h1>\n<blockquote>\n<p>制作Docker镜像一般有2种方法：<br>\n1. 使用DockerHub仓库中已有的环境，安装自己使用的软件环境后完成image创</p>\n</blockquote>\n",
+            "url": "https://blog.horonlee.com/posts/Docker-images",
+            "title": "Docker镜像的封装和制作",
+            "summary": "使用Dockerfile来制作docker镜像",
+            "date_modified": "2022-11-29T08:29:08.000Z",
+            "date_published": "2024-03-26T01:53:46.602Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>下载安装Cloudreve</h1>\n<blockquote>\n<p>这里我选用的是阿里云的Ecs轻应用<br>\n并且不是使用Docker来部署（那也太傻瓜操作了吧😂</p>\n</blockquote>\n<ol>\n<li>登录到Shell终端</li>\n<li>部署[Cloudreve](h</li>\n</ol>\n",
+            "url": "https://blog.horonlee.com/posts/Ecs-Cos-Cloudreve",
+            "title": "Ecs+Cos+Cloudreve",
+            "date_modified": "2023-04-03T18:33:39.000Z",
+            "date_published": "2024-03-26T01:53:46.602Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>事情起因</h2>\n<p>最近给自己的双路E5搞一个Frpc，但是因为有Clash这个开机自启程序，并且我设置了系统代理，在Clash完全启动之前系统是处于断网状态的。断网状态下，Frpc会默认启动失败并且变为Inactive状态，这并不是我想看到的。</p>\n",
+            "url": "https://blog.horonlee.com/posts/Frpc-systemd-restart",
+            "title": "为Systemd服务设置自动重启",
+            "date_modified": "2024-01-21T18:08:10.000Z",
+            "date_published": "2024-03-26T01:53:46.602Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<pre><code class=\"language-go\">package main\n\nimport &quot;fmt&quot;\n\nfunc findprimes(number int) bool {\n    // 质数本身就能被1和本身整除，所以可以直接筛选2~</code></pre>\n",
+            "url": "https://blog.horonlee.com/posts/Golang-Prime",
+            "title": "Golang判断质数",
+            "date_modified": "2023-05-23T16:50:36.000Z",
+            "date_published": "2024-03-26T01:53:46.602Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<blockquote>\n<p>最近因为Halo博客被宝塔面板爆破了，所以只能继续使用老博客Hexo（托管在githubpage上），但是GitHubPage实在是太慢了，Hexo的配置也有些乱糟糟的，于是乎就换用了由云游君大佬开发的Valaxy博客框架</p>\n</blockquote>\n",
+            "url": "https://blog.horonlee.com/posts/Hexo-to-valaxy",
+            "title": "从Hexo切换为Valaxy感受",
+            "date_modified": "2024-01-19T20:02:16.000Z",
+            "date_published": "2024-03-26T01:53:46.602Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>String类</h1>\n<h2>比较两个字符串的两种方法</h2>\n<ul>\n<li>直接使用“==”进行运算,这样是比较两个字符串对象在内存中的位置,而不是实际上看到的内容。</li>\n<li>使用String类中的equals()方法进行比</li>\n</ul>\n",
+            "url": "https://blog.horonlee.com/posts/Java-note",
+            "title": "Java学习-String",
+            "summary": "学习笔记",
+            "date_modified": "2022-11-10T19:28:15.000Z",
+            "date_published": "2024-03-26T01:53:46.602Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<pre><code>[root@k8s-master ~]# kubeadm config images pull --kubernetes-version=v1.27.0\nW0609 23:21:18.4051</code></pre>\n",
+            "url": "https://blog.horonlee.com/posts/K8S1.27.0-deploy",
+            "title": "K8S1.27.0集群部署要点",
+            "date_modified": "2023-06-10T00:43:16.000Z",
+            "date_published": "2024-03-26T01:53:46.602Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>关于k8s镜像的下载</h1>\n<blockquote>\n<p>说实话我真的吐了，没有科学上网真的寸步难行，没办法直接拉取k8s.gcr.io的镜像，所以只能先用阿里云的<br>\n但是后续的安装没办法直接使用阿里云的镜像，所以还得改tag</p>\n</blockquote>\n",
+            "url": "https://blog.horonlee.com/posts/Kubernetes-note",
+            "title": "初试Kubernetes笔记",
+            "date_modified": "2023-04-04T13:27:28.000Z",
+            "date_published": "2024-03-26T01:53:46.602Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>容器云平台部署</h1>\n<h2>基础环境准备</h2>\n<ol>\n<li>将提供的安装包 chinaskills_cloud_paas_v2.0.2.iso 上传至 master 节点/root 目录,并解到/opt 目录:<br>\n`</li>\n</ol>\n",
+            "url": "https://blog.horonlee.com/posts/Kubernetes-sh",
+            "title": "Kubernetes脚本部署",
+            "date_modified": "2023-07-11T21:39:43.000Z",
+            "date_published": "2024-03-26T01:53:46.602Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>CentOS7：<br>\n进入SSH并运行如下命令</p>\n<pre><code class=\"language-bash\">yum install cloud-utils-growpart gdisk xfsprogs e2fsprogs\n</code></pre>\n<p>使用<code>fdisk -l</code>命令根据大小及其他信息查看要扩容的云盘，本例子中要扩容的分区为/dev/sda1</p>\n",
+            "url": "https://blog.horonlee.com/posts/Linux-volume",
+            "title": "Linux在线扩容磁盘",
+            "date_modified": "2022-12-19T17:19:14.000Z",
+            "date_published": "2024-03-26T01:53:46.602Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<blockquote>\n<p>安装过程很简单，很人性化，就不多说了</p>\n</blockquote>\n<h1>换软件源</h1>\n<blockquote>\n<p>因为在大陆，所以换一个快速的软件园非常重要</p>\n</blockquote>\n<ol>\n<li>打开firefox浏览器</li>\n<li>搜索ustc mirror</li>\n<li>进入网站首页，下拉找到</li>\n</ol>\n",
+            "url": "https://blog.horonlee.com/posts/Manjaro-note",
+            "title": "Manjaro简易使用笔记",
+            "date_modified": "2023-03-06T15:27:43.000Z",
+            "date_published": "2024-03-26T01:53:46.602Z",
+            "author": {
+                "name": "皓然",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}
